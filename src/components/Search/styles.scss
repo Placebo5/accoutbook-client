@@ -1,0 +1,18 @@
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+
+  .search__icon {
+    background-color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+    // color: yellowgreen;
+  }
+
+  input {
+    padding: 5px;
+    height: 20px;
+    border: 0px;
+  }
+}

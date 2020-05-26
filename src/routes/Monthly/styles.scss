@@ -1,0 +1,51 @@
+.table-box {
+  padding: 20px;
+  background-color: white;
+
+  table tbody tr {
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+  th:nth-child(1) {
+    width: 10%;
+  }
+
+  .table__row {
+    background-color: #ddd;
+    cursor: default;
+  }
+  // th:nth-child(1) {
+  //   width: 10%;
+  // }
+}
+
+.form-group {
+  margin-bottom: 10px;
+
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  select,
+  textarea {
+    display: block;
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 8px;
+    border-radius: 3px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .from-group__radio {
+    width: 20px;
+    display: inline-block;
+  }
+}

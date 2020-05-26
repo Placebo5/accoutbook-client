@@ -1,0 +1,35 @@
+header {
+  background-color: #c3c1c1;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  .header__contents {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 70px;
+  }
+
+  .header__logo {
+    font-size: 23px;
+    color: #fff;
+  }
+
+  .header__menu {
+    margin-left: 60px;
+
+    ul li {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0 25px;
+      margin: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

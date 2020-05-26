@@ -1,0 +1,23 @@
+// .container {
+//   display: flex;
+//   min-height: 100vh;
+
+//   .main {
+//     background-color: #ddd;
+//     flex: 1;
+//     padding: 20px;
+//   }
+// }
+
+.wrap {
+  min-width: 1200px;
+  min-height: 100vh;
+  background-color: #ddd;
+  padding: 0px 10px 10px 10px;
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+}
